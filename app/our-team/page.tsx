@@ -79,7 +79,7 @@ export default function OurTeamPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((t, idx) => (
             <div key={idx} className="p-8 rounded-2xl bg-[#1b0f35] border border-[#33224f] flex flex-col justify-between">
-              <p className="text-sm text-[#b3a8cf] italic leading-relaxed mb-6">"{t.quote}"</p>
+              <p className="text-sm text-[#b3a8cf] italic leading-relaxed mb-6">&quot;{t.quote}&quot;</p>
               <div>
                 <h4 className="text-base font-bold text-white">{t.client}</h4>
                 <p className="text-xs text-[#e5389a] font-semibold">{t.company}</p>

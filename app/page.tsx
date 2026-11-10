@@ -239,7 +239,7 @@ export default function Home() {
             className="max-w-3xl mx-auto p-10 rounded-3xl bg-[#1b0f35] border border-[#33224f] text-center relative shadow-xl cursor-pointer transition-all hover:border-[#6b2fe0]"
           >
             <p className="text-lg sm:text-xl text-[#d9cdf5] italic leading-relaxed mb-8 transition-opacity duration-300">
-              "{testimonials[currentTestimonial].quote}"
+              &quot;{testimonials[currentTestimonial].quote}&quot;
             </p>
             <div>
               <h4 className="text-lg font-bold text-white">
