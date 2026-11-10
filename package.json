@@ -7,27 +7,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack",
-    "start": "next start",
+    "build": "next build",
+    "start": "node server.js",
     "lint": "eslint"
-  },
-  "dependencies": {
-    "@tailwindcss/turbopack": "^4",
-    "@types/node": "^20",
-    "@types/nodemailer": "^8.0.2",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "framer-motion": "^14.8.0",
-    "lucide-react": "^1.64.0",
-    "next": "16.4.3",
-    "nodemailer": "^10.3.1",
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  },
-  "devDependencies": {
-    "eslint": "^9",
-    "eslint-config-next": "16.4.3"
   }
 }
