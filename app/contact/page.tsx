@@ -89,11 +89,6 @@ export default function ContactPage() {
 
         </div>
 
-        {/* Quick Note Banner */}
-        <div className="mt-8 text-center text-sm text-[#d9cdf5]/70">
-          <p>You can easily copy the email address or phone number above to reach out via your preferred client.</p>
-        </div>
-
       </div>
     </div>
   );

@@ -93,7 +93,7 @@ export default function AboutUsPage() {
         <div className="max-w-[1180px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative rounded-3xl overflow-hidden border border-[#33224f] shadow-2xl h-[400px] order-2 lg:order-1">
             <Image
-              src="/slide2.jpg"
+              src="/slide2.png"
               alt="IFS Process Planning and Architecture"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

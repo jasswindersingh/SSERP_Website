@@ -21,7 +21,7 @@ export default function ServicesPage() {
     {
       title: 'Financials Management & Taxation',
       badge: 'Global Compliance',
-      image: '/aboutus-768x432.png',
+      image: '/aboutus-768x432.jpg',
       desc: 'Finance is the nerve center for any organization. We map all subledgers to simplify reconciliation processes, supported by master setups handling multi-book accounting (GAAP, IFRS) and local country taxations (GST, VAT, Sales Tax, WHT).',
       features: [
         'Corporate Setup, Payable & Receivable Management',
@@ -69,7 +69,7 @@ export default function ServicesPage() {
     {
       title: 'User Management & Security Controls',
       badge: 'Governance',
-      image: '/aboutus-768x432.png',
+      image: '/aboutus-768x432.jpg',
       desc: 'Define users and enforce well-defined security controls built on IFS Permission Sets. Manage database object access, system privileges, company/site availability, user groups, profiles, and person object connections.',
       features: [
         'Assign Permission Sets & System Privileges',
