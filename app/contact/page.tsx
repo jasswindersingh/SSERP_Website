@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-[#120826] text-[#f1ecfb] pt-28 pb-16 px-6 sm:px-8 lg:px-12">
+    <div className="min-h-screen bg-[#120826] text-[#f1ecfb] pt-28 pb-16 px-4 sm:px-8 lg:px-12">
       <div className="max-w-4xl mx-auto">
         
         {/* Header Section */}
@@ -15,25 +15,25 @@ export default function ContactPage() {
         </div>
 
         {/* Contact Information Card */}
-        <div className="bg-[#1b0f35] border border-[#33224f] rounded-2xl p-8 shadow-xl grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="bg-[#1b0f35] border border-[#33224f] rounded-2xl p-5 sm:p-8 shadow-xl grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           
           {/* Direct Email */}
           <div className="flex items-start space-x-4">
             <div className="p-3 bg-[#e5389a]/10 rounded-xl text-[#e5389a]">
               <Mail className="w-6 h-6" />
             </div>
-            <div>
+            <div className="min-w-0">
               <h3 className="text-xl font-semibold text-white mb-1">Email Us</h3>
               <p className="text-sm text-[#d9cdf5] mb-2">For business proposals & queries:</p>
               <a 
                 href="mailto:info@singlestreamerp.com" 
-                className="text-[#10b981] font-medium hover:underline text-lg select-all"
+                className="text-[#10b981] font-medium hover:underline text-base sm:text-lg select-all break-words"
               >
                 info@singlestreamerp.com
               </a>
               <a 
                 href="mailto:Rohtashsingh@singlestreamerp.com" 
-                className="block text-[#10b981] font-medium hover:underline text-lg select-all"
+                className="block text-[#10b981] font-medium hover:underline text-base sm:text-lg select-all break-words"
               >
                 Rohtashsingh@singlestreamerp.com
               </a>
@@ -45,7 +45,7 @@ export default function ContactPage() {
             <div className="p-3 bg-[#e5389a]/10 rounded-xl text-[#e5389a]">
               <Phone className="w-6 h-6" />
             </div>
-            <div>
+            <div className="min-w-0">
               <h3 className="text-xl font-semibold text-white mb-1">Call Us</h3>
               <p className="text-sm text-[#d9cdf5] mb-2">Speak directly with our team:</p>
               <a 
@@ -62,13 +62,13 @@ export default function ContactPage() {
             <div className="p-3 bg-[#e5389a]/10 rounded-xl text-[#e5389a]">
               <MapPin className="w-6 h-6" />
             </div>
-            <div>
+            <div className="min-w-0">
               <h3 className="text-xl font-semibold text-white mb-1">Our Offices</h3>
               <p className="text-sm text-[#d9cdf5]">
                 <strong className="text-white">Registered Office:</strong><br />
                 B601 Cosmos GoldenHeights, Crossing Republic, Ghaziabad 201016<br /><br />
                 <strong className="text-white">Corporate Office:</strong><br />
-                NH9 near Brijghat, Gajraula, Amroha 244235
+                NH9 Near Brijghat, Gajraula, Amroha 244235
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function ContactPage() {
             <div className="p-3 bg-[#e5389a]/10 rounded-xl text-[#e5389a]">
               <Clock className="w-6 h-6" />
             </div>
-            <div>
+            <div className="min-w-0">
               <h3 className="text-xl font-semibold text-white mb-1">Business Hours</h3>
               <p className="text-sm text-[#d9cdf5]">
                 Monday – Saturday<br />
