@@ -42,7 +42,7 @@ export default function SiteNavigation() {
           </span>
         </Link>
 
-        <nav aria-label="Primary navigation" className="hidden xl:flex items-center gap-5 text-xs font-semibold whitespace-nowrap">
+        <nav aria-label="Primary navigation" className="hidden xl:flex items-center gap-5 text-xs font-semibold text-[#f1ecfb] whitespace-nowrap">
           {navigationLinks.map((item) => (
             <Link key={item.href} href={item.href} className="hover:text-[#e5389a] hover:underline underline-offset-8 transition-colors">
               {item.label}
