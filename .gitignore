@@ -13,6 +13,13 @@
 # Production build output
 /build
 
+# Local environment files
+.env*
+!.env.example
+
+# Vercel local project settings
+.vercel
+
 # Misc
 .DS_Store
 *.pem
