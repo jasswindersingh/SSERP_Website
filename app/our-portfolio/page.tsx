@@ -47,7 +47,7 @@ export default function OurPortfolioPage() {
   ];
 
   return (
-    <div className="pt-28 pb-20">
+    <div className="min-h-screen bg-[#120826] pt-28 pb-20 text-[#f1ecfb]">
       {/* Page Header */}
       <div className="bg-[#0b0418] py-20 border-b border-[#33224f]">
         <div className="max-w-[1180px] mx-auto px-6">

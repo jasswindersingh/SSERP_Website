@@ -9,7 +9,7 @@ export default function IndustriesPage() {
     {
       title: 'Oil and Gas',
       badge: 'EAM Leader Choice',
-      image: '/rig.png',
+      image: '/Rig.png',
       stat: '400+ Projects',
       statDesc: 'Asset-oriented companies running IFS worldwide',
       desc: 'ARC Advisory Group rated IFS as the top EAM solution choice for Oil and Gas. IFS is the global leader for EPCI contractors, drilling contractors, oilfield machinery, and offshore service companies. We specialize in implementing IFS across complex, multi-site drilling operations.',
@@ -23,7 +23,7 @@ export default function IndustriesPage() {
     {
       title: 'Aerospace and Defense',
       badge: 'Pioneer Implementation',
-      image: '/aerospace.png',
+      image: '/Aerospace.png',
       stat: 'Thousands',
       statDesc: 'Active users across defense divisions & plants',
       desc: 'We are pioneers in the Aerospace and Defense domain. Our expert solutions help streamline and seamlessly manage intricate MRO, Manufacturing, Engineering Design, Supply Chain, Customer Service, and Financial compliance across global defense divisions.',
@@ -37,7 +37,7 @@ export default function IndustriesPage() {
     {
       title: 'Manufacturing & Distribution',
       badge: 'End-to-End Control',
-      image: '/factory.png',
+      image: '/Factory.png',
       stat: '100% Automated',
       statDesc: 'Repetitive supply chain & execution tasks',
       desc: 'Our integrated solution supports all segments of the manufacturing process—empowering leadership to analyze, execute, and control every variable. We automate repetitive tasks and optimize supply chain methods spread across different locations and international territories.',
@@ -51,7 +51,7 @@ export default function IndustriesPage() {
     {
       title: 'Utility and Automobiles',
       badge: 'Fool-Proof Setup',
-      image: '/fleet.png',
+      image: '/Fleet.png',
       stat: 'Global Leaders',
       statDesc: 'Automotive & utility enterprise partners',
       desc: 'We hold an impeccable record of implementing fool-proof IFS solutions for Utility and Automotive giants. From greenfield implementations to post-go-live SLA support, we streamline intrinsic plant processes and maintenance operations.',
@@ -65,7 +65,7 @@ export default function IndustriesPage() {
     {
       title: 'Telecommunications',
       badge: 'Infrastructure BI',
-      image: '/tower.png',
+      image: '/Tower.png',
       stat: 'Domain Experts',
       statDesc: 'Preferred implementation partners globally',
       desc: 'Our in-depth domain knowledge and technical expertise make us the most preferred IFS implementation partner for telecom leaders across the globe, supporting infrastructure management, network inventory, and billing integration.',
@@ -79,7 +79,7 @@ export default function IndustriesPage() {
     {
       title: 'Ports and Terminals',
       badge: 'Smart Port EAM',
-      image: '/harbor.png',
+      image: '/Harbor.png',
       stat: 'Global Ports',
       statDesc: 'Powering terminal operations like APM Terminals',
       desc: 'Asset management is the core backbone of smart port operation. Our expert team of IFS consultants brings deep domain knowledge to drive IT support, crane maintenance, berth scheduling, and mixed payment resolutions.',
