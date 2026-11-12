@@ -8,24 +8,6 @@ export default function OurTeamPage() {
       desc: 'Extensive expertise in end-to-end IFS ERP implementations, complex accounting structures, and financial ledgers across 20+ countries.',
       initials: 'RS',
     },
-    {
-      name: 'Implementation Specialists',
-      role: 'IFS & Oracle ERP Practice',
-      desc: 'Expert techno-functional teams specialized in supply chain, maintenance management, and Camunda workflow engines.',
-      initials: 'IS',
-    },
-    {
-      name: 'Technical Support Team',
-      role: '24/7 Managed Services',
-      desc: 'Dedicated post-implementation support resolving complex payment errors, system bugs, and workflow bottlenecks.',
-      initials: 'TS',
-    },
-    {
-      name: 'Project Directors',
-      role: 'Global Delivery Management',
-      desc: 'Seasoned project leaders with a 100% success record in large-scale enterprise ERP deployments.',
-      initials: 'PD',
-    },
   ];
 
   const testimonials = [
@@ -61,7 +43,7 @@ export default function OurTeamPage() {
       <div className="max-w-[1180px] mx-auto px-6 py-16">
         {/* Team Grid */}
         <h2 className="text-3xl font-extrabold text-white mb-8">Leadership & Expertise</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+        <div className="grid grid-cols-1 max-w-xs gap-6 mb-20">
           {teamMembers.map((member, i) => (
             <div key={i} className="p-8 rounded-2xl bg-[#1b0f35] border border-[#33224f] text-center">
               <div className="w-20 h-20 rounded-full bg-gradient-to-r from-[#6b2fe0] to-[#e5389a] mx-auto mb-6 flex items-center justify-center font-extrabold text-2xl text-white shadow-lg">
