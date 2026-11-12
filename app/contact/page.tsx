@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-[#120826] text-[#f1ecfb] py-16 px-6 sm:px-8 lg:px-12">
+    <div className="min-h-screen bg-[#120826] text-[#f1ecfb] pt-28 pb-16 px-6 sm:px-8 lg:px-12">
       <div className="max-w-4xl mx-auto">
         
         {/* Header Section */}
@@ -31,6 +31,12 @@ export default function ContactPage() {
               >
                 info@singlestreamerp.com
               </a>
+              <a 
+                href="mailto:Rohtashsingh@singlestreamerp.com" 
+                className="block text-[#10b981] font-medium hover:underline text-lg select-all"
+              >
+                Rohtashsingh@singlestreamerp.com
+              </a>
             </div>
           </div>
 
@@ -43,10 +49,10 @@ export default function ContactPage() {
               <h3 className="text-xl font-semibold text-white mb-1">Call Us</h3>
               <p className="text-sm text-[#d9cdf5] mb-2">Speak directly with our team:</p>
               <a 
-                href="tel:+91XXXXXXXXXX" 
+                href="tel:+918826036507" 
                 className="text-[#10b981] font-medium hover:underline text-lg select-all"
               >
-                +91 XXXXX XXXXX
+                +91 88260 36507
               </a>
             </div>
           </div>
@@ -57,10 +63,12 @@ export default function ContactPage() {
               <MapPin className="w-6 h-6" />
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-1">Our Office</h3>
+              <h3 className="text-xl font-semibold text-white mb-1">Our Offices</h3>
               <p className="text-sm text-[#d9cdf5]">
-                Single Stream ERP Pvt. Ltd.<br />
-                [Insert Office Address Here]
+                <strong className="text-white">Registered Office:</strong><br />
+                B601 Cosmos GoldenHeights, Crossing Republic, Ghaziabad 201016<br /><br />
+                <strong className="text-white">Corporate Office:</strong><br />
+                NH9 near Brijghat, Gajraula, Amroha 244235
               </p>
             </div>
           </div>
