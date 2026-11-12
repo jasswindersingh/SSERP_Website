@@ -1,6 +1,8 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
+const corporateOfficeMapUrl = 'https://www.google.com/maps/place/3IN1+REST/@28.7735604,78.1651283,17z/data=!3m1!4b1!4m9!3m8!1s0x390b710003f47571:0x68eec6f23e75b148!5m2!4m1!1i2!8m2!3d28.7735557!4d78.1677032!16s%2Fg%2F11xghwrrzq?entry=ttu&g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D';
+
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-[#120826] text-[#f1ecfb] pt-28 pb-16 px-4 sm:px-8 lg:px-12">
@@ -59,16 +61,30 @@ export default function ContactPage() {
 
           {/* Office Location */}
           <div className="flex items-start space-x-4">
-            <div className="p-3 bg-[#e5389a]/10 rounded-xl text-[#e5389a]">
+            <a
+              href={corporateOfficeMapUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Corporate Office in Google Maps"
+              title="Open Corporate Office in Google Maps"
+              className="p-3 bg-[#e5389a]/10 rounded-xl text-[#e5389a] hover:bg-[#e5389a]/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#e5389a]"
+            >
               <MapPin className="w-6 h-6" />
-            </div>
+            </a>
             <div className="min-w-0">
               <h3 className="text-xl font-semibold text-white mb-1">Our Offices</h3>
               <p className="text-sm text-[#d9cdf5]">
                 <strong className="text-white">Registered Office:</strong><br />
                 B601 Cosmos GoldenHeights, Crossing Republic, Ghaziabad 201016<br /><br />
-                <strong className="text-white">Corporate Office:</strong><br />
-                NH9 Near Brijghat, Gajraula, Amroha 244235
+                <a
+                  href={corporateOfficeMapUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#10b981] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#e5389a]"
+                >
+                  <strong className="text-white">Corporate Office:</strong><br />
+                  NH9 Near Brijghat, Gajraula, Amroha 244235
+                </a>
               </p>
             </div>
           </div>
