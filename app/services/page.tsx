@@ -19,6 +19,18 @@ export default function ServicesPage() {
       ],
     },
     {
+      title: 'Manufacturing Solutions',
+      badge: 'Production Operations',
+      image: '/Manufacturing.png',
+      desc: 'Connect production planning with shop-floor execution for discrete and process manufacturing. We help optimize bills of materials, routings, and work centers while improving visibility into production progress.',
+      features: [
+        'Discrete & Process Manufacturing Execution',
+        'Bill of Materials (BOM) & Routing Optimization',
+        'Production Scheduling & Material Coordination',
+        'Real-Time Shop-Floor Tracking & Production Visibility',
+      ],
+    },
+    {
       title: 'Financials Management & Taxation',
       badge: 'Global Compliance',
       image: '/aboutus-768x432.jpg',
