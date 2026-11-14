@@ -27,13 +27,13 @@ export default function SiteNavigation() {
           onClick={() => setIsMenuOpen(false)}
           className="flex items-center gap-2 sm:gap-3 shrink-0 group"
         >
-          <div className="relative w-11 h-11 sm:w-14 sm:h-14 bg-white rounded-xl p-1 shadow-md border border-white/20 flex items-center justify-center shrink-0 transition-transform group-hover:scale-105">
+          <div className="relative w-11 h-11 sm:w-14 sm:h-14 bg-white rounded-full overflow-hidden shadow-md border border-white/20 flex items-center justify-center shrink-0 transition-transform group-hover:scale-105">
             <Image
               src="/logo.jpg"
               alt="Single Stream ERP Logo"
-              width={56}
-              height={56}
-              className="object-contain w-full h-full"
+              width={179}
+              height={192}
+              className="object-cover w-full h-full"
               priority
             />
           </div>

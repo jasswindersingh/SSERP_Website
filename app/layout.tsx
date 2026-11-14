@@ -25,13 +25,13 @@ export default function RootLayout({
         <footer className="border-t border-[#33224f] py-12 text-[#b3a8cf] text-sm bg-[#0b0418]">
           <div className="max-w-[1180px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-3.5">
-              <div className="w-12 h-12 bg-white rounded-lg p-1 border border-white/20 flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 bg-white rounded-full overflow-hidden border border-white/20 flex items-center justify-center shrink-0">
                 <Image
                   src="/logo.jpg"
                   alt="Single Stream ERP Logo"
-                  width={48}
-                  height={48}
-                  className="object-contain w-full h-full"
+                  width={179}
+                  height={192}
+                  className="object-cover w-full h-full"
                 />
               </div>
               <div>
